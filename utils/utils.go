@@ -17,9 +17,9 @@ import (
 const (
 	ALLOWANCE_TICAI             float64       = 0.075
 	ALLOWANCE_CROWN             float64       = 0.02
-	BONUS_TICAI                 float64       = 0.0
-	ALLOW_TICAI_ONE             float64       = 0.1
-	ALLOW_TICAI_TWO             float64       = 0.2
+	BONUS_TICAI                 float64       = 0.1
+	ALLOW_TICAI_ONE             float64       = 0.0
+	ALLOW_TICAI_TWO             float64       = 0.0
 	TOTAL_BET                   float64       = 10000.0
 	ONE_FOR_THREE_GAME_INTERVAL time.Duration = 1 * 3600 * time.Second
 	URL_TICAI_NORMAL            string        = "http://www.310win.com/buy/jingcai.aspx?typeID=105&oddstype=2"
@@ -32,7 +32,7 @@ const (
 	TIME_HIGH_PEAK_START_MIN    int           = 35
 	TIME_HIGH_PEAK_END_HOUR     int           = 9
 	TIME_HIGH_PEAK_END_MIN      int           = 35
-	MAIL_TO                     string        = "77264952@qq.com"
+	MAIL_TO                     string        = "77264952@qq.com;48354085@qq.com"
 	MAIL_FROM                   string        = "jonathan_tester<77264952@qq.com>"
 )
 

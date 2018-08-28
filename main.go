@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"./goals"
 	"./utils"
 	"./winlose"
@@ -92,10 +90,6 @@ func init() {
 
 }
 func main() {
-	fmt.Println(0.63 * 1.28 * 0.4 * 1.4 * 0.64 * 2.25)
-	fmt.Println(0.4 * 1.14 * 0.72 * 2.25 * 0.73 * 1.19)
-	fmt.Println(1.28 * 0.4 * 1.14 * 0.64 * 2.25 * 0.73)
-	fmt.Println(1.28 * 0.4 * 0.72 * 0.64 * 2.25 * 1.19)
 	RunFactory(utils.FlagGameType)
 	switch utils.FlagMode {
 	case 1:
